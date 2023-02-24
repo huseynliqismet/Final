@@ -29,6 +29,7 @@ const Header = () => {
   <Link to={'/home'}>
 <img src={logo}/>
 </Link>
+
   </Box>
 
 </Grid>
