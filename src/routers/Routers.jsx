@@ -8,6 +8,7 @@ const Routers = () => {
     <Layout>
     <Routes>
       <Route path="/home" element={<Home />} />
+     
     </Routes>
   </Layout>
   )
