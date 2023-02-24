@@ -45,7 +45,7 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Amazon Brand Modern armchair",
     imgUrl: productImg03,
     category: "armchair",
     price: 173,
@@ -67,7 +67,7 @@ const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Armchair ",
     imgUrl: productImg04,
     category: "armchair",
     price: 253,
@@ -89,7 +89,7 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep armchair",
     imgUrl: productImg04,
     category: "armchair",
     price: 163,
@@ -112,7 +112,7 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Faux Velvet Armchair",
     imgUrl: productImg05,
     category: "armchair",
     price: 163,
@@ -135,7 +135,7 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep armchair",
     imgUrl: productImg06,
     category: "armchair",
     price: 163,
@@ -157,7 +157,7 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Honor X14",
     imgUrl: productImg07,
     category: "phone",
     price: 99,
@@ -180,7 +180,7 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Iphone",
     imgUrl: productImg007,
     category: "phone",
     price: 173,
@@ -203,7 +203,7 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Samsung S23",
     imgUrl: productImg08,
     category: "phone",
     price: 89,
@@ -226,7 +226,7 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Sofa",
     imgUrl: productImg09,
     category: "phone",
     price: 112,
@@ -249,7 +249,7 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Sofa",
     imgUrl: productImg13,
     category: "sofa",
     price: 799,
@@ -271,7 +271,7 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Samsung S22",
     imgUrl: productImg10,
     category: "phone",
     price: 99,
@@ -293,7 +293,7 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Sofa",
     imgUrl: productImg14,
     category: "sofa",
     price: 799,
@@ -316,7 +316,7 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Sofa",
     imgUrl: productImg15,
     category: "sofa",
     price: 599,
@@ -339,7 +339,7 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Sofa",
     imgUrl: productImg16,
     category: "sofa",
     price: 799,
@@ -362,7 +362,7 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Sofa",
     imgUrl: productImg17,
     category: "sofa",
     price: 899,
@@ -385,7 +385,7 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Rolex Watch",
     imgUrl: productImg18,
     category: "watch",
     price: 699,
