@@ -51,9 +51,7 @@ const Header = () => {
   <Typography className='menu-item'><Link to='/shop'>Shop</Link></Typography>
   <Typography className='menu-item'><Link to='/contact'>Contact</Link></Typography>
 </Grid>
-
-  </Box>
-
+</Box>
 </Grid>
       </Container>
 
