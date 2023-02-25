@@ -1,39 +1,32 @@
-import productImg01 from "../images/double-sofa-01.png";
-import productImg02 from "../images/double-sofa-02.png";
-import productImg03 from "../images/double-sofa-03.png";
+import productImg01 from "../images/armchair.jpg";
+import productImg03 from "../images/armchair2.jpg";
+import productImg04 from "../images/armchair3.jpg";
+import productImg05 from "../images/armchair4.jpg";
+import productImg06 from "../images/armchair5.jpg";
+import productImg007 from "../images/phone1.jpg";
+import productImg07 from "../images/phone2.jpg";
+import productImg08 from "../images/phone3.jpg";
+import productImg09 from "../images/phone4.jpg";
+import productImg10 from "../images/phone5.jpg";
+import productImg13 from "../images/sofa1.jpg";
+import productImg14 from "../images/sofa2.jpg";
+import productImg15 from "../images/sofa3.jpg";
+import productImg16 from "../images/sofa4.jpg";
+import productImg17 from "../images/sofa5.jpg";
+import productImg18 from "../images/watch1.jpg";
+import productImg19 from "../images/watch2.jpg";
+import productImg20 from "../images/watch3.jpg";
+import productImg21 from "../images/watch4.jpg";
+import productImg22 from "../images/watch5.jpg";
 
-import productImg04 from "../images/single-sofa-01.jpg";
-import productImg05 from "../images/single-sofa-02.jpg";
-import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
-
-import productImg13 from "../images/phone-01.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
-
-import productImg19 from "../images/watch-01.jpg";
-import productImg20 from "../images/watch-02.jpg";
-import productImg21 from "../images/watch-03.jpg";
-import productImg22 from "../images/watch-04.jpg";
-
-import productImg23 from "../images/wireless-01.png";
-
-import productImg25 from "../images/wireless-03.png";
 
 const products = [
   {
     id: "01",
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
-    category: "sofa",
+    category: "armchair",
     price: 193,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -48,34 +41,13 @@ const products = [
     avgRating: 4.5,
   },
 
-  {
-    id: "02",
-    productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
-    category: "sofa",
-    price: 253,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.7,
-  },
+  
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Amazon Brand Modern armchair",
     imgUrl: productImg03,
-    category: "sofa",
+    category: "armchair",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -95,9 +67,9 @@ const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
-    category: "sofa",
+    productName: "Armchair ",
+    imgUrl: productImg04,
+    category: "armchair",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -117,9 +89,9 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep armchair",
     imgUrl: productImg04,
-    category: "sofa",
+    category: "armchair",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -140,9 +112,9 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Faux Velvet Armchair",
     imgUrl: productImg05,
-    category: "sofa",
+    category: "armchair",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -163,9 +135,9 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep armchair",
     imgUrl: productImg06,
-    category: "sofa",
+    category: "armchair",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -185,9 +157,9 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Honor X14",
     imgUrl: productImg07,
-    category: "chair",
+    category: "phone",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -208,9 +180,9 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Iphone",
     imgUrl: productImg007,
-    category: "sofa",
+    category: "phone",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -231,9 +203,9 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Samsung S23",
     imgUrl: productImg08,
-    category: "chair",
+    category: "phone",
     price: 89,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -254,9 +226,9 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Sofa",
     imgUrl: productImg09,
-    category: "chair",
+    category: "phone",
     price: 112,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -277,9 +249,9 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Sofa",
     imgUrl: productImg13,
-    category: "mobile",
+    category: "sofa",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -299,9 +271,9 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Samsung S22",
     imgUrl: productImg10,
-    category: "chair",
+    category: "phone",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -321,9 +293,9 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Sofa",
     imgUrl: productImg14,
-    category: "mobile",
+    category: "sofa",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -344,9 +316,9 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Sofa",
     imgUrl: productImg15,
-    category: "mobile",
+    category: "sofa",
     price: 599,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -367,9 +339,9 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Sofa",
     imgUrl: productImg16,
-    category: "mobile",
+    category: "sofa",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -390,9 +362,9 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Sofa",
     imgUrl: productImg17,
-    category: "mobile",
+    category: "sofa",
     price: 899,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -413,9 +385,9 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Rolex Watch",
     imgUrl: productImg18,
-    category: "mobile",
+    category: "watch",
     price: 699,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -526,51 +498,9 @@ const products = [
     avgRating: 4.8,
   },
 
-  {
-    id: "20",
-    productName: "Beat Studio Wireless",
-    imgUrl: productImg23,
-    category: "wireless",
-    price: 199,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.8,
-  },
+  
 
-  {
-    id: "22",
-    productName: "Beat EP Headphones",
-    imgUrl: productImg25,
-    category: "wireless",
-    price: 199,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.8,
-  },
+
 ];
 
 export default products;
