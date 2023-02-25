@@ -1,4 +1,4 @@
-import ScrollAnimation from 'react-animation-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Box, Theme, BoxProps, styled } from '@mui/material';
 
 type BounceInLeftProps = BoxProps & {
@@ -25,7 +25,7 @@ const Root = styled(Box)<BounceInLeftProps>(({ theme, startsFrom }: { theme: The
 export const BounceInLeft: React.FC<BounceInLeftProps> = ({ children, duration = 0.5, startsFrom, ...props }) => {
     return (
         <Root {...props} startsFrom={startsFrom}>
-            <ScrollAnimation >
+            <ScrollAnimation animateIn="bounceInRight" duration={duration}>
                 {children}
             </ScrollAnimation>
         </Root>

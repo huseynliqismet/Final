@@ -1,5 +1,5 @@
-import ScrollAnimation from 'react-animate-on-scroll';
 import { Box, Theme, BoxProps, styled } from '@mui/material';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 type BounceInRightProps = BoxProps & {
     duration?: number;
@@ -25,9 +25,9 @@ const Root = styled(Box)<BounceInRightProps>(({ theme, startsFrom }: { theme: Th
 export const BounceInRight: React.FC<BounceInRightProps> = ({ children, duration = 0.5, startsFrom, ...props }) => {
     return (
         <Root {...props} startsFrom={startsFrom}>
-            <ScrollAnimation animateIn="bounceInRight" duration={duration} {...props}>
+            <AnimationOnScroll animateIn="bounceInRight" duration={duration} {...props}>
                 {children}
-            </ScrollAnimation>
+            </AnimationOnScroll>
         </Root>
     );
 };

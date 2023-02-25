@@ -16,6 +16,8 @@ const Navbar = styled(Box)({
     '& .navbar':{
       display:'flex',
       justifyContent:'space-between',
+      alignItems:'center',
+
       
     },
     '& .menu-item':{
